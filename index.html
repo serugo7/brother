@@ -4,6 +4,7 @@
 	<title>tera</title>
 	<meta charset="utf-8">
 	<meta title="width" content="device-width;initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="icon2/css/font-awesome.min.css">
 </head>
 <body>
 	<nav>
@@ -16,21 +17,34 @@
 	</nav>
 	<div class="container-1">
 		<div class="container-2">
-			<h2>brioche cafe</h2>
+			<h2><i class="fa fa-coffee" aria-hidden="true"></i>
+brioche cafe</h2>
 			<hr/>
 		</div>
-		<div class="container-3">
+		<div class="image-test" style="background-image: url('asset/images/coffee/coffee.jpg')">
 			<p>your</p>
 			<p>bad days</p>
 			<p>are best</p>
 			<p>forgotten over</p>
 			<p>your fries and dips</p>
 		</div>
+		<div class="container-4">
+			<h3>share:</h3>
+			<ul>
+				<li><i class="fa fa-facebook"></i> facebook</li>
+				<li><i class="fa fa-twitter"></i> twitter</li>
+				<li><i class="fa fa-envelope"></i> email</li>
+			</ul>
+			
+		</div>
 	</div>
 	<style>
 		body{
 			margin: 0;
 			padding: 0;
+		}
+		ul{
+			margin:0;
 		}
 		.list-nav{
 			list-style-type: none;
@@ -41,6 +55,7 @@
 		.list-nav li{
 			display: inline;
 			padding: 3em;
+			font-weight: 800;
 		}
 		.list-nav a{
 			text-decoration: none;
@@ -61,13 +76,20 @@
 		    text-transform: capitalize;
 		    margin: 20px 0;
 		}
-		.container-3 {
-			max-width: 700px;
-			background-color: black;
+		.container-4 li{
+			display: inline;
+			padding: 1em;
+		}
+		.image-test{
+			height: 300px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			margin-top:1em;
 			color: #fff;
-			
-
-			
+			padding: 20px 0;
+			font-weight: 800;
+			text-transform: uppercase;
 		}
 
 	</style>
